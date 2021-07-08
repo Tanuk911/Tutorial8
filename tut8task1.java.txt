@@ -1,0 +1,30 @@
+public class Player {
+	private String Name;
+	private String type;
+	private double statistics;
+	private int age;
+	
+	
+	//constructor 
+	public Player(String Name, String type,double statistics, int age){
+		this.Name = Name;
+		this.type = type;
+		this.statistics = statistics;
+		this.age = age;
+	}
+	
+	//Methods
+	public  String getName(){
+		return Name;
+	}
+	public String gettype(){
+		return Type;
+	}
+	public double getstatistics (){
+		return statistics;
+	}
+	public int getage (){
+		return age;
+	}
+	
+	
